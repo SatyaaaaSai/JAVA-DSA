@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+//https://leetcode.com/problems/find-all-duplicates-in-an-array/
 public class FindAllMissingNumbers {
     public List<Integer> findDuplicates(int[] arr) {
         int i = 0;
