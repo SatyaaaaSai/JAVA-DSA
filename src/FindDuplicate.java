@@ -10,7 +10,7 @@ public class FindDuplicate {
                 if(arr[i]!=i+1){
                     int value=arr[i]-1;
                     if(arr[i]!=arr[value]){
-                        swap(arr,i,value)
+                        swap(arr,i,value);
                     }
                     else{
                         return arr[i]; //return the answer
