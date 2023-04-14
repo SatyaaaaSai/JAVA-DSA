@@ -11,7 +11,7 @@ public class LinearSearchRecurrsion {
     }
 
     public boolean find(int[] arr, int target, int index) {
-        if (arr[index] == arr.length) {
+        if (index == arr.length) {
             return false;
         }
 
@@ -19,7 +19,7 @@ public class LinearSearchRecurrsion {
     }
 
     public int findInIndex(int[] arr, int target, int index) {
-        if (arr[index] == arr.length) {
+        if (index == arr.length) {
             return -1;
         }
 
