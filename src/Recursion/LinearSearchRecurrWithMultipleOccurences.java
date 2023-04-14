@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class LinearSearchRecurrWithMultipleOccurences {
     public static void main(String[] args) {
         LinearSearchRecurrWithMultipleOccurences obj=new LinearSearchRecurrWithMultipleOccurences();
-        int[] arr = {1, 2, 3, 4, 4, 5, 6};
-           obj.findInIndex(arr, 4, 0);
+        int[] arr = {1, 2, 3, 4, 4, 5, 6,6,6,6,6};
+           obj.findInIndex(arr, 6, 0);
         System.out.println(obj.list);
         }
 
