@@ -10,7 +10,7 @@ public class SkipACharacter {
     }
 
     //Apporach 1
-    //Using Another Variable In The Function Callled  ans , Used In Recursion Function.
+    //Using Another Variable In The Function Called  ans , Used In Recursion Function.
     public void skip(String ans,String string){
         if(string.isEmpty()){
             System.out.println(ans);
