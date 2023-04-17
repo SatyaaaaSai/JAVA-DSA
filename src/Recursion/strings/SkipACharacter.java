@@ -10,7 +10,7 @@ public class SkipACharacter {
     }
 
     //Apporach 1
-    //Using Another Variable Called ch , Used In Recursion Stack.
+    //Using Another Variable In The Function Callled  ans , Used In Recursion Function.
     public void skip(String ans,String string){
         if(string.isEmpty()){
             System.out.println(ans);
@@ -25,7 +25,8 @@ public class SkipACharacter {
             skip(ans+ch,string.substring(1));
         }
     }
-
+    //Apporach 2
+    //Without Using Variable Function Ans IN The Recurssion Stack.
     public String skipWithout(String string){
         if(string.isEmpty()){
             return "";
