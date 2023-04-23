@@ -1,4 +1,4 @@
-package OOPPrinciples;
+package OOPPrinciples.Inheritance;
 
 public class Box {
 

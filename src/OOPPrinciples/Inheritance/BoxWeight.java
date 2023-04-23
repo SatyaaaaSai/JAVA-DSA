@@ -1,6 +1,6 @@
-package OOPPrinciples;
+package OOPPrinciples.Inheritance;
 
-public class BoxWeight extends Box{ //Box File Is The Above Box File.Because this is in the package/!\
+public class BoxWeight extends Box { //Box File Is The Above Box File.Because this is in the package/!\
     public int weight;
     BoxWeight(){
         this.weight=-1;
@@ -14,6 +14,11 @@ public class BoxWeight extends Box{ //Box File Is The Above Box File.Because thi
     BoxWeight(BoxWeight other){
         super(other);
         weight=other.weight;
+    }
+
+    public BoxWeight(int side, int weight) {
+        super(side);
+        this.weight = weight;
     }
 
     public static void main(String[] args) {
