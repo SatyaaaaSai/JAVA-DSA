@@ -1,2 +1,2 @@
 # JAVA-DSA
-A Java Codes While Learning Java!
+A Java Codes While Learning DSA!
