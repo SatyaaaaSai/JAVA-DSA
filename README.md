@@ -1,2 +1,2 @@
-# JAVA-DSA-
-This Reprository Contains Solved LeetCode Problems In Java!
+# JAVA-DSA
+A Java Codes While Learning Java!
